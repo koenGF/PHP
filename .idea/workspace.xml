@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="changed structure">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="index.html">
+      <change afterPath="$PROJECT_DIR$/H02/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +59,9 @@
       <workItem from="1607685588971" duration="191000" />
       <workItem from="1609524998049" duration="1326000" />
       <workItem from="1609751386269" duration="22000" />
-      <workItem from="1609758880418" duration="3648000" />
+      <workItem from="1609758880418" duration="4500000" />
+      <workItem from="1609770552469" duration="232000" />
+      <workItem from="1609771208292" duration="1581000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <created>1609765703737</created>
@@ -74,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609765755770</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="index.html">
+      <created>1609766591142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1609766591142</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,10 +100,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hello world" />
     <MESSAGE value="changed structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed structure" />
+    <MESSAGE value="index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.html" />
   </component>
 </project>

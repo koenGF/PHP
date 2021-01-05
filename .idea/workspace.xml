@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="finished H2, link on homepage">
-      <change afterPath="$PROJECT_DIR$/H03/H03opdr1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H03/H03opdr2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H03/H03opdr3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H03/H03opdr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H03/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cat0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cat1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cat2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cat3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cat4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cat5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cat6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cat7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/cat8.jpg" afterDir="false" />
+    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="H03 WIP">
+      <change afterPath="$PROJECT_DIR$/H03/H03opdr5.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H03/H03opdr6.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/swim.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H03/H03opdr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/H03/H03opdr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H03/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/H03/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +66,8 @@
       <workItem from="1609758880418" duration="4500000" />
       <workItem from="1609770552469" duration="232000" />
       <workItem from="1609771208292" duration="1944000" />
-      <workItem from="1609839903689" duration="6118000" />
+      <workItem from="1609839903689" duration="6341000" />
+      <workItem from="1609862817951" duration="3888000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <created>1609765703737</created>
@@ -106,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609773119024</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="H03 WIP">
+      <created>1609846884688</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609846884688</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +128,7 @@
     <MESSAGE value="changed structure" />
     <MESSAGE value="index.html" />
     <MESSAGE value="finished H2, link on homepage" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished H2, link on homepage" />
+    <MESSAGE value="H03 WIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="H03 WIP" />
   </component>
 </project>

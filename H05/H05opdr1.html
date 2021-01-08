@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+    <style>
+        form ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        form ul li {
+            padding: 10px;
+        }
+        form ul li input {
+            position: absolute;
+            left: 150px;
+        }
+    </style>
+</head>
+<body>
+<form action="response1.php" method="post">
+    <ul>
+        <li>
+            * required fields
+        </li>
+        <li>
+            <label for="username"> * Username:</label>
+            <input type="text" name="username" id="username"> <br>
+        </li>
+        <li>
+            <label for="address">* Address:</label>
+        <input type="text" name="address" id="address"> <br>
+        </li>
+        <li>
+            <label for="email">* Email:</label>
+        <input type="text" name="email" id="email"> <br>
+        </li>
+        <li>
+            <label for="password">* Password:</label>
+        <input type="password" name="password" id="password"> <br>
+        </li>
+        <li>
+        <input type="submit" name="button">
+        </li>
+    </ul>
+</form>
+</body>
+</html>

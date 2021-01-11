@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="H03 WIP">
-      <change afterPath="$PROJECT_DIR$/H05/H05opdr1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H05/H05opdr2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H05/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H05/response1.php" afterDir="false" />
+    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="test">
+      <change afterPath="$PROJECT_DIR$/H05/H05opdr3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H05/response2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H05/response3.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H05/H05opdr1.html" beforeDir="false" afterPath="$PROJECT_DIR$/H05/H05opdr1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H05/H05opdr2.html" beforeDir="false" afterPath="$PROJECT_DIR$/H05/H05opdr2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H05/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/H05/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +45,12 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.phpOptions" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -74,7 +80,9 @@
       <workItem from="1609948222814" duration="606000" />
       <workItem from="1610019216382" duration="3530000" />
       <workItem from="1610027990746" duration="2884000" />
-      <workItem from="1610111109514" duration="5587000" />
+      <workItem from="1610111109514" duration="6582000" />
+      <workItem from="1610351666640" duration="2320000" />
+      <workItem from="1610359967326" duration="3501000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <created>1609765703737</created>
@@ -118,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609870766392</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="H05 WIP">
+      <created>1610116876518</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610116876518</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +158,12 @@
     <MESSAGE value="index.html" />
     <MESSAGE value="finished H2, link on homepage" />
     <MESSAGE value="H03 WIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="H03 WIP" />
+    <MESSAGE value="H05 WIP" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

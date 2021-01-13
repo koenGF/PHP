@@ -4,16 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/H05/H05opdr3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H05/response2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/H05/response3.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="finished H05">
+      <change afterPath="$PROJECT_DIR$/H06/H06.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H05/H05opdr1.html" beforeDir="false" afterPath="$PROJECT_DIR$/H05/H05opdr1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H05/H05opdr2.html" beforeDir="false" afterPath="$PROJECT_DIR$/H05/H05opdr2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H05/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/H05/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.phpOptions" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -82,7 +77,10 @@
       <workItem from="1610027990746" duration="2884000" />
       <workItem from="1610111109514" duration="6582000" />
       <workItem from="1610351666640" duration="2320000" />
-      <workItem from="1610359967326" duration="3501000" />
+      <workItem from="1610359967326" duration="5460000" />
+      <workItem from="1610450238288" duration="1819000" />
+      <workItem from="1610534684428" duration="498000" />
+      <workItem from="1610558127190" duration="1349000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <created>1609765703737</created>
@@ -133,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610116876518</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finished H05">
+      <created>1610366438854</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610366438854</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +165,8 @@
     <MESSAGE value="H03 WIP" />
     <MESSAGE value="H05 WIP" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="finished H05" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished H05" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

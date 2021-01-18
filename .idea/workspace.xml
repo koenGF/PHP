@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="finished H05">
-      <change afterPath="$PROJECT_DIR$/H06/H06.php" afterDir="false" />
+    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="finished H06">
+      <change afterPath="$PROJECT_DIR$/H07/admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H07/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H07/website.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/H06/H06.php" beforeDir="false" afterPath="$PROJECT_DIR$/H06/H06.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +83,12 @@
       <workItem from="1610359967326" duration="5460000" />
       <workItem from="1610450238288" duration="1819000" />
       <workItem from="1610534684428" duration="498000" />
-      <workItem from="1610558127190" duration="1349000" />
+      <workItem from="1610558127190" duration="1537000" />
+      <workItem from="1610622978938" duration="1826000" />
+      <workItem from="1610629522159" duration="378000" />
+      <workItem from="1610638485594" duration="1215000" />
+      <workItem from="1610964666806" duration="3906000" />
+      <workItem from="1610978978296" duration="4519000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <created>1609765703737</created>
@@ -138,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610366438854</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="finished H06">
+      <created>1610560241790</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610560241790</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +181,8 @@
     <MESSAGE value="H05 WIP" />
     <MESSAGE value="test" />
     <MESSAGE value="finished H05" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished H05" />
+    <MESSAGE value="finished H06" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished H06" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

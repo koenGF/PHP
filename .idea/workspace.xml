@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="fix" />
+    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="logins on screen">
+      <change afterPath="$PROJECT_DIR$/H08/H08.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/H08/Radioprogramma.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +27,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="php7.4.9" />
   <component name="ProjectId" id="1lSr0rcUuV4dPlYHQLHXMgZVyAQ" />
@@ -82,6 +95,8 @@
       <workItem from="1610638485594" duration="1215000" />
       <workItem from="1610964666806" duration="3906000" />
       <workItem from="1610978978296" duration="6924000" />
+      <workItem from="1611053567328" duration="1035000" />
+      <workItem from="1611060046433" duration="6480000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <created>1609765703737</created>
@@ -160,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610985340654</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="logins onscreen">
+      <created>1611053822449</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1611053822449</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,7 +213,8 @@
     <MESSAGE value="finished H06" />
     <MESSAGE value="finished H07" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="logins onscreen" />
+    <option name="LAST_COMMIT_MESSAGE" value="logins onscreen" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

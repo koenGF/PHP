@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="finished H07">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H07/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/H07/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H07/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/H07/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H07/website.php" beforeDir="false" afterPath="$PROJECT_DIR$/H07/website.php" afterDir="false" />
-    </list>
+    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +81,7 @@
       <workItem from="1610629522159" duration="378000" />
       <workItem from="1610638485594" duration="1215000" />
       <workItem from="1610964666806" duration="3906000" />
-      <workItem from="1610978978296" duration="6280000" />
+      <workItem from="1610978978296" duration="6924000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <created>1609765703737</created>
@@ -158,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610983633399</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fix">
+      <created>1610985340654</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610985340654</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +190,8 @@
     <MESSAGE value="finished H05" />
     <MESSAGE value="finished H06" />
     <MESSAGE value="finished H07" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished H07" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

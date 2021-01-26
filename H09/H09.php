@@ -1,19 +1,29 @@
 <?php
-/* iets met array_push doen
- * edit items?
- *
+/* add form to cookie 1
+ * if cookie 1 isset, cookie 2
+ * fori cookie, add to $broodjes
 */
 
+$cookie = 0;
 $broodjes = [
     "broodje1" => ['flour' => "flour1", 'shape' => "shape1", 'weight' => "weight1"],
     "broodje2" => ['flour' => "flour2", 'shape' => "shape2", 'weight' => "weight2"],
     "broodje3" => ['flour' => "flour3", 'shape' => "shape3", 'weight' => "weight3"],
 ];
-print_r($_POST);
+JSC($_POST);
 //array_push($broodjes, $_POST["bread"]);
 
 if (isset($_POST['button'])) {
-    $broodjes[$_POST["bread"]] = ['flour' => $_POST["flour"], 'shape' => $_POST["shape"], 'weight' => $_POST["weight"]];
+//    $broodjes[$_POST["bread"]] = ['flour' => $_POST["flour"], 'shape' => $_POST["shape"], 'weight' => $_POST["weight"]];
+
+    if (isset($_COOKIE[$cookie])) {
+        $cookie++;
+    }
+
+    for ($i = 0; $i < $cookie; $i++) {
+        print_r(unserialize($_COOKIE[$i], ["allowed_classes" => false]));
+        echo "<br>";
+    }
 }
 
 ?>
@@ -66,9 +76,11 @@ if (isset($_POST['button'])) {
 </body>
 </html>
 <?php
-foreach ($broodjes as $broodje => $content) {
-    echo "<br>".$broodje."<br>";
-    print_r($content);
-    echo "<br>";
+JSC($broodjes);
+
+function JSC($input){
+    echo "<pre>";
+    print_r($input);
+    echo "</pre>";
 }
 ?>

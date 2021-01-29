@@ -1,31 +1,5 @@
 <?php
-/* add form to cookie 1
- * if cookie 1 isset, cookie 2
- * fori cookie, add to $broodjes
-*/
-
-$cookie = 0;
-$broodjes = [
-    "broodje1" => ['flour' => "flour1", 'shape' => "shape1", 'weight' => "weight1"],
-    "broodje2" => ['flour' => "flour2", 'shape' => "shape2", 'weight' => "weight2"],
-    "broodje3" => ['flour' => "flour3", 'shape' => "shape3", 'weight' => "weight3"],
-];
 JSC($_POST);
-//array_push($broodjes, $_POST["bread"]);
-
-if (isset($_POST['button'])) {
-//    $broodjes[$_POST["bread"]] = ['flour' => $_POST["flour"], 'shape' => $_POST["shape"], 'weight' => $_POST["weight"]];
-
-    if (isset($_COOKIE[$cookie])) {
-        $cookie++;
-    }
-
-    for ($i = 0; $i < $cookie; $i++) {
-        print_r(unserialize($_COOKIE[$i], ["allowed_classes" => false]));
-        echo "<br>";
-    }
-}
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -47,10 +21,10 @@ if (isset($_POST['button'])) {
     </style>
 </head>
 <body>
-<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+<form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
     <ul>
         <li>
-            Nieuw broodje:
+            Nieuw broodje/Edit broodje:
         </li>
         <li>
             <label for="bread">Naam:</label>
@@ -75,12 +49,40 @@ if (isset($_POST['button'])) {
 </form>
 </body>
 </html>
+
 <?php
-JSC($broodjes);
+$user = 'school2user';
+$pass = 'qTR5X6dr';
+
+try {
+    $dbh = new PDO('mysql:host=localhost;dbname=bakkerij;port=3306', $user, $pass);
+    foreach ($dbh->query('SELECT * from broodjes') as $row) {
+        JSC($row);
+    }
+    $dbh = null;
+} catch (PDOException $e) {
+    print "Error!: " . $e->getMessage() . "<br/>";
+    die();
+}
 
 function JSC($input){
     echo "<pre>";
     print_r($input);
     echo "</pre>";
+}
+
+if(isset($_POST['button'])) {
+    $naam = $_POST['bread'];
+    $meel = $_POST['flour'];
+    $vorm = $_POST['shape'];
+    $gewicht = $_POST['weight'];
+    $sql = "INSERT INTO broodjes (naam,meel,vorm,gewicht)
+     VALUES ('$naam','$meel','$vorm','$gewicht')";
+    if ($dbh->query($sql)) {
+        echo "New record has been added successfully !";
+    } else {
+        echo "Error!";
+    }
+$dbh->close();
 }
 ?>

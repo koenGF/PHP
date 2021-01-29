@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="H09 wip">
+    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="H09 wip (cookies and array solution; doesn't work)">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H06/H06.php" beforeDir="false" afterPath="$PROJECT_DIR$/H06/H06.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/H09/H09.php" beforeDir="false" afterPath="$PROJECT_DIR$/H09/H09.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +14,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
+  <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE">
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -52,8 +54,15 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../wamp64/bin/php/php5.6.40/php.exe" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.phpOptions" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -101,7 +110,12 @@
       <workItem from="1611576781957" duration="4814000" />
       <workItem from="1611592036017" duration="299000" />
       <workItem from="1611610116779" duration="68000" />
-      <workItem from="1611649542146" duration="6975000" />
+      <workItem from="1611649542146" duration="7800000" />
+      <workItem from="1611760552593" duration="156000" />
+      <workItem from="1611828875883" duration="781000" />
+      <workItem from="1611830194134" duration="142000" />
+      <workItem from="1611832838574" duration="7709000" />
+      <workItem from="1611911896965" duration="1838000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <created>1609765703737</created>
@@ -201,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611585781260</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="H09 wip (cookies and array solution; doesn't work)">
+      <created>1611660891317</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1611660891317</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +256,8 @@
     <MESSAGE value="logins onscreen" />
     <MESSAGE value="finished H08" />
     <MESSAGE value="H09 wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="H09 wip" />
+    <MESSAGE value="H09 wip (cookies and array solution; doesn't work)" />
+    <option name="LAST_COMMIT_MESSAGE" value="H09 wip (cookies and array solution; doesn't work)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

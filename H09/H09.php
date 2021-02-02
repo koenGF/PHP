@@ -24,7 +24,8 @@ JSC($_POST);
 <form action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
     <ul>
         <li>
-            Nieuw broodje/Edit broodje:
+            Nieuw broodje/Edit broodje: <br>
+            let op: check key vantevoren in table.
         </li>
         <li>
             <label for="bread">Naam:</label>
@@ -41,6 +42,10 @@ JSC($_POST);
         <li>
             <label for="weight">Gewicht:</label>
             <input type="text" name="weight" id="weight"> <br>
+        </li>
+        <li>
+            <label for="key">Key:</label>
+            <input type="text" name="key" id="key"> <br>
         </li>
         <li>
             <input type="submit" name="button">
@@ -72,17 +77,26 @@ function JSC($input){
 }
 
 if(isset($_POST['button'])) {
+    $dbh = new PDO('mysql:host=localhost;dbname=bakkerij;port=3306', $user, $pass);
+    $sleutel = $_POST['key'];
     $naam = $_POST['bread'];
     $meel = $_POST['flour'];
     $vorm = $_POST['shape'];
     $gewicht = $_POST['weight'];
-    $sql = "INSERT INTO broodjes (naam,meel,vorm,gewicht)
-     VALUES ('$naam','$meel','$vorm','$gewicht')";
-    if ($dbh->query($sql)) {
-        echo "New record has been added successfully !";
+
+    $insertSql = "INSERT INTO broodjes (naam,meel,vorm,gewicht,sleutel)
+     VALUES ('$naam','$meel','$vorm','$gewicht','$sleutel');";
+
+    $updateSql = "UPDATE broodjes SET naam = '$naam',meel = '$meel', vorm = '$vorm', gewicht = '$gewicht'
+    WHERE sleutel = '$sleutel'
+    LIMIT 1;";
+
+    if ($dbh->query($insertSql)) {
+        echo "New record has been added successfully!";
+    } elseif ($dbh->query($updateSql)) {
+        echo "record updated successfully!";
     } else {
-        echo "Error!";
+        echo "error! insert and update failed."."<br>".$updateSql;
     }
-$dbh->close();
 }
 ?>

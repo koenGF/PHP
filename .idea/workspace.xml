@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="H09 database solution wip">
+    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="finished H09">
+      <change afterPath="$PROJECT_DIR$/file.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/H09/H09.php" beforeDir="false" afterPath="$PROJECT_DIR$/H09/H09.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kgfro\Documents\github\PHP" />
       <recent name="C:\Users\kgfro\Documents\github\PHP\H01" />
     </key>
   </component>
@@ -118,7 +119,10 @@
       <workItem from="1612180080603" duration="3127000" />
       <workItem from="1612188149376" duration="594000" />
       <workItem from="1612251858015" duration="4010000" />
-      <workItem from="1612256923646" duration="4927000" />
+      <workItem from="1612256923646" duration="5583000" />
+      <workItem from="1612266291573" duration="1895000" />
+      <workItem from="1612270886802" duration="3344000" />
+      <workItem from="1612278034666" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <created>1609765703737</created>
@@ -232,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611915640414</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="finished H09">
+      <created>1612262918501</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1612262918501</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,7 +279,8 @@
     <MESSAGE value="H09 wip" />
     <MESSAGE value="H09 wip (cookies and array solution; doesn't work)" />
     <MESSAGE value="H09 database solution wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="H09 database solution wip" />
+    <MESSAGE value="finished H09" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished H09" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

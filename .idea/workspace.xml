@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="added file.php">
+    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="added recursiveArrayLoop.php, deleted file.php">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file.php" beforeDir="false" afterPath="$PROJECT_DIR$/file.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +60,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -132,7 +131,10 @@
       <workItem from="1612449975374" duration="428000" />
       <workItem from="1612953013151" duration="105000" />
       <workItem from="1614785861683" duration="987000" />
-      <workItem from="1614786885859" duration="951000" />
+      <workItem from="1614786885859" duration="1278000" />
+      <workItem from="1614788573709" duration="26000" />
+      <workItem from="1614790561420" duration="69000" />
+      <workItem from="1614793645596" duration="2041000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <created>1609765703737</created>
@@ -260,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612278738886</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added recursiveArrayLoop.php, deleted file.php">
+      <created>1614788126901</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1614788126902</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +307,8 @@
     <MESSAGE value="H09 database solution wip" />
     <MESSAGE value="finished H09" />
     <MESSAGE value="added file.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="added file.php" />
+    <MESSAGE value="added recursiveArrayLoop.php, deleted file.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="added recursiveArrayLoop.php, deleted file.php" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="finished H09">
-      <change afterPath="$PROJECT_DIR$/file.php" afterDir="false" />
+    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="added file.php">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.php" beforeDir="false" afterPath="$PROJECT_DIR$/file.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -122,7 +122,17 @@
       <workItem from="1612256923646" duration="5583000" />
       <workItem from="1612266291573" duration="1895000" />
       <workItem from="1612270886802" duration="3344000" />
-      <workItem from="1612278034666" duration="670000" />
+      <workItem from="1612278034666" duration="1797000" />
+      <workItem from="1612292593262" duration="1710000" />
+      <workItem from="1612294341688" duration="2557000" />
+      <workItem from="1612298661074" duration="243000" />
+      <workItem from="1612298928093" duration="946000" />
+      <workItem from="1612300055984" duration="886000" />
+      <workItem from="1612355543233" duration="6538000" />
+      <workItem from="1612449975374" duration="428000" />
+      <workItem from="1612953013151" duration="105000" />
+      <workItem from="1614785861683" duration="987000" />
+      <workItem from="1614786885859" duration="951000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <created>1609765703737</created>
@@ -243,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612262918501</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added file.php">
+      <created>1612278738886</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1612278738886</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +297,8 @@
     <MESSAGE value="H09 wip (cookies and array solution; doesn't work)" />
     <MESSAGE value="H09 database solution wip" />
     <MESSAGE value="finished H09" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished H09" />
+    <MESSAGE value="added file.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="added file.php" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="added recursiveArrayLoop.php, deleted file.php">
-      <change afterPath="$PROJECT_DIR$/fibonacci.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fizzbuzz.php" afterDir="false" />
+    <list default="true" id="1e91d9e7-bdd7-486d-821f-980f1a31b1b3" name="Default Changelist" comment="added fizzbuzz.php and fibonacci.php">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -147,7 +146,11 @@
       <workItem from="1632901807845" duration="2964000" />
       <workItem from="1633621342508" duration="14000" />
       <workItem from="1635754591141" duration="579000" />
-      <workItem from="1636898383934" duration="978000" />
+      <workItem from="1636898383934" duration="2626000" />
+      <workItem from="1636961725620" duration="45000" />
+      <workItem from="1636979435566" duration="1987000" />
+      <workItem from="1637048011791" duration="23000" />
+      <workItem from="1638191827763" duration="456000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <created>1609765703737</created>
@@ -289,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614796783708</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="added fizzbuzz.php and fibonacci.php">
+      <created>1636899570092</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1636899570092</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +339,8 @@
     <MESSAGE value="added file.php" />
     <MESSAGE value="added recursiveArrayLoop.php, deleted file.php" />
     <MESSAGE value="test commit with token" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit with token" />
+    <MESSAGE value="added fizzbuzz.php and fibonacci.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="added fizzbuzz.php and fibonacci.php" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

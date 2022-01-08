@@ -9,9 +9,6 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
-      <webServer id="0164e45a-2f51-4bd6-a185-5de2c0aa583f" name="localhost" url="http://localhost">
-        <fileTransfer mountedRoot="C:\Users\kgfro\Documents\github\PHP" accessType="MOUNT" port="0" />
-      </webServer>
     </option>
   </component>
 </project>
